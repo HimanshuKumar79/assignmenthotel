@@ -64,7 +64,7 @@ const HomePage = () => {
       </div>
       {hotelData.length > cardsToShow && (
         <div
-          className="flex justify-center items-center h-fit w-fit px-4 gap-3 py-2 my-2 rounded-2xl bg-[blue] text-white font-semibold"
+          className="flex justify-center cursor-pointer items-center h-fit w-fit px-4 gap-3 py-2 my-2 rounded-2xl bg-[blue] text-white font-semibold"
           onClick={handleShowMore}
         >
           <GiSandsOfTime className="mt-[2px]" />
